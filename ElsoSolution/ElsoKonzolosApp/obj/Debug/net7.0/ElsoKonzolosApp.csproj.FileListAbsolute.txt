@@ -1,0 +1,14 @@
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\bin\Debug\net7.0\ElsoKonzolosApp.exe
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\bin\Debug\net7.0\ElsoKonzolosApp.deps.json
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\bin\Debug\net7.0\ElsoKonzolosApp.runtimeconfig.json
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\bin\Debug\net7.0\ElsoKonzolosApp.dll
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\bin\Debug\net7.0\ElsoKonzolosApp.pdb
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\obj\Debug\net7.0\ElsoKonzolosApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\obj\Debug\net7.0\ElsoKonzolosApp.AssemblyInfoInputs.cache
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\obj\Debug\net7.0\ElsoKonzolosApp.AssemblyInfo.cs
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\obj\Debug\net7.0\ElsoKonzolosApp.csproj.CoreCompileInputs.cache
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\obj\Debug\net7.0\ElsoKonzolosApp.dll
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\obj\Debug\net7.0\refint\ElsoKonzolosApp.dll
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\obj\Debug\net7.0\ElsoKonzolosApp.pdb
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\obj\Debug\net7.0\ElsoKonzolosApp.genruntimeconfig.cache
+C:\peldak2023\ElsoSolution\ElsoKonzolosApp\obj\Debug\net7.0\ref\ElsoKonzolosApp.dll
