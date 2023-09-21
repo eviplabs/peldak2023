@@ -17,9 +17,9 @@ namespace ElsoKonzolosApp
             SzuletesiEv = szuletesiEv;
         }
 
-        //override public string ToString()
-        //{
-        //    return Nev + " (" + SzuletesiEv + ")";
-        //}
+        public override string ToString()
+        {
+            return Nev + " (" + SzuletesiEv + ")";
+        }
     }
 }
