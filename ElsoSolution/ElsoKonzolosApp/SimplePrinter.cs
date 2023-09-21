@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ElsoKonzolosApp
 {
-    internal class SimplePrinter : IEmberPrinter
+    internal class SimplePrinter : EmberPrinterBase
     {
-        public void Print(Ember ember)
-        {
-            Console.WriteLine(ember);
-        }
+        //public override void Print(Ember ember)
+        //{
+        //    base.Print(ember);
+        //}
     }
 }
