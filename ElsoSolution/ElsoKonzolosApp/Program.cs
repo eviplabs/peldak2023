@@ -26,6 +26,26 @@ namespace ElsoKonzolosApp
 
             x = $"hello2 {ember.Nev} ( {ember.SzuletesiEv} )";
 
+            string szamStringkent = "12fff3";
+            // Ha lehet, hogy nem szám, akkor nem így csináljuk!!!
+            //try
+            //{
+            //    int szam2 = int.Parse(szamStringkent);
+            //    Console.WriteLine(szam2);
+            //}
+            //catch (FormatException)
+            //{
+            //    Console.WriteLine("Ez nem szám!!!! :(");
+            //}
+
+            if (int.TryParse(szamStringkent, out int szam))
+            {
+                Console.WriteLine("Szám:"+szam);
+            }
+            else
+            {
+                Console.WriteLine("Ez nem szám!!! :(");
+            }
         }
 
         private static IEmberPrinter CreatePrinter(bool isDesign)   // Factory method
