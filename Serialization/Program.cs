@@ -19,15 +19,6 @@ namespace Serialization
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
-            using (StreamWriter sw = new StreamWriter("e.txt"))
-            {
-                sw.Write(JsonSerializer.Serialize(persons));
-            }
-
-            string json = File.ReadAllText("e.txt");
-            var personArray = JsonSerializer.Deserialize<Person[]>(json);
         }
     }
 }
