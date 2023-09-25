@@ -5,3 +5,7 @@
 *.user
 *.suo
 *.cache
+*/.vs/*
+**/.vs/*
+**/obj/*
+**/bin/*

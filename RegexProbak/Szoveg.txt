@@ -1,0 +1,70 @@
+﻿Tárgykód,Tárgy név,Követelmény,Tárgy kredit,S/O,Félév,Kurzus kód,Kurzus típus,Telephely,Leírás,Létszám,Órarend infó,Órarendi igények,Oktatók,,,,,,,,
+BMEVIAUMB07,Alkalmazásfejlesztés,Vizsga,5,S/O,2023/24/1,GY,Gyakorlat/ -/ -,,,0/0/0,CS:08:15-10:00,,"Dr. Blázovics László,   Dr. Csorba Kristóf",,,,,,,,1097088241
+BMEVIAUMA09,Alkalmazásfejlesztés,Vizsga,4,S/O,2023/24/1,EA,Elmélet/ -/ -,,,1/0/80,H:10:15-12:00(QBF14),,"Dr. Blázovics László,   Dr. Csorba Kristóf",,,,,,,,1113618649
+BMEVIAUMB07,Alkalmazásfejlesztés,Vizsga,5,S/O,2023/24/1,EA,Elmélet/ -/ -,,,0/0/0,H:10:15-12:00,,"Dr. Blázovics László,   Dr. Csorba Kristóf",,,,,,,,1097088154
+BMEVIAUMA09,Alkalmazásfejlesztés,Vizsga,4,S/O,2023/24/1,Gy,Gyakorlat/ -/ -,,,1/0/80,CS:08:15-10:00(QBF14),,"Dr. Blázovics László,   Dr. Csorba Kristóf",,,,,,,,1113618716
+BMEVIAUAC04,Alkalmazásfejlesztési környezetek,Vizsga,4,S/O,2023/24/1,@,Vizsgakurzus/ -/ -,,,1/0/20,,,"Dr. Csorba Kristóf,   Bányász Gábor,   Kövesdán Gábor",,,,,,,,1106749006
+BMEVIAUM026,Diplomatervezés A,Évközi jegy,15,O,2023/24/1,Gy,Gyakorlat/ -/ -,,,12/0/30,,,"Dr. Kővári Bence András,   Dr. Sütő Zoltán,   Dr. Tevesz Gábor,...",,,,,,,,1105766240
+BMEVIAUM027,Diplomatervezés B,Évközi jegy,15,O,2023/24/1,GY,Gyakorlat/ -/ -,,,16/0/60,,,"Dr. Kővári Bence András,   Dr. Tevesz Gábor,   Dr. Csorba Kristóf,...",,,,,,,,1105766468
+BMEVIAUM027,Diplomatervezés B,Évközi jegy,15,O,2023/24/1,A01Gy23os,Gyakorlat/ Speciális kurzus/ Speciális kurzus,,,0/0/999,,,"Dr. Csorba Kristóf,   Dr. Kovács Tibor,   Dr. Kővári Bence András,...",,,,,,,,1094177479
+BMEVIAUMT12,Diplomatervezés 1,Évközi jegy,10,O,2023/24/1,GY,Gyakorlat/ -/ -,,,1/0/100,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1108197033
+BMEVIAUMT10,Diplomatervezés 1,Évközi jegy,10,O,2023/24/1,GY,Gyakorlat/ -/ -,,,0/0/100,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1108195707
+BMEVIAUMT02,Diplomatervezés 1,Évközi jegy,10,O,2023/24/1,AGY,Gyakorlat/ -/ -,,,3/0/25,,,"Dr. Kovács Tibor,   Dr. Kővári Bence András,   Dr. Csorba Kristóf",,,,,,,,1105765468
+BMEVIAUMT02,Diplomatervezés 1,Évközi jegy,10,O,2023/24/1,Gy,Gyakorlat/ -/ -,,,4/0/100,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105765480
+BMEVIAUMT12,Diplomatervezés 1,Évközi jegy,10,O,2023/24/1,AGY,Gyakorlat/ -/ -,,,0/0/30,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András,   Dr. Kovács Tibor",,,,,,,,1108207007
+BMEVIAUMT00,Diplomatervezés 1,Évközi jegy,10,O,2023/24/1,Gy,Gyakorlat/ -/ -,,,37/0/150,,,"Dr. Kővári Bence András,   Dr. Csorba Kristóf",,,,,,,,1105765453
+BMEVIAUMT00,Diplomatervezés 1,Évközi jegy,10,O,2023/24/1,AGY,Gyakorlat/ -/ -,,,6/0/25,,,"Dr. Kovács Tibor,   Dr. Kővári Bence András,   Dr. Csorba Kristóf",,,,,,,,1105765438
+BMEVIAUMT10,Diplomatervezés 1,Évközi jegy,10,O,2023/24/1,AGY,Gyakorlat/ -/ -,,,1/0/30,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András,   Dr. Kovács Tibor",,,,,,,,1108206531
+BMEVIAUMT11,Diplomatervezés 2,Évközi jegy,20,O,2023/24/1,AGY,Gyakorlat/ -/ -,,,0/0/30,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András,   Dr. Kovács Tibor",,,,,,,,1108206722
+BMEVIAUMT03,Diplomatervezés 2,Évközi jegy,20,O,2023/24/1,AGY,Gyakorlat/ -/ -,,,3/0/25,,,"Dr. Kővári Bence András,   Dr. Csorba Kristóf,   Dr. Kovács Tibor",,,,,,,,1105766031
+BMEVIAUMT01,Diplomatervezés 2,Évközi jegy,20,O,2023/24/1,AGY,Gyakorlat/ -/ -,,,1/0/25,,,"Dr. Kovács Tibor,   Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105765600
+BMEVIAUMT11,Diplomatervezés 2,Évközi jegy,20,O,2023/24/1,GY,Gyakorlat/ -/ -,,,0/0/100,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1108196951
+BMEVIAUMT01,Diplomatervezés 2,Évközi jegy,20,O,2023/24/1,Gy,Gyakorlat/ -/ -,,,63/0/150,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105765618
+BMEVIAUMT03,Diplomatervezés 2,Évközi jegy,20,O,2023/24/1,Gy,Gyakorlat/ -/ -,,,25/0/60,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105766043
+BMEVIAUMT13,Diplomatervezés 2,Évközi jegy,20,O,2023/24/1,GY,Gyakorlat/ -/ -,,,0/0/100,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1108197105
+BMEVIAUMT13,Diplomatervezés 2,Évközi jegy,20,O,2023/24/1,AGY,Gyakorlat/ -/ -,,,0/0/30,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András,   Dr. Kovács Tibor",,,,,,,,1108207073
+BMEVIAUBB01,Eseményvezérelt és vizuális programozás,Évközi jegy,7,S/O,2023/24/1,L1,Labor/ -/ -,,,0/0/0,K:10:15-13:00,,Dr. Csorba Kristóf,,,,,,,,1097065115
+BMEVIAUBB01,Eseményvezérelt és vizuális programozás,Évközi jegy,7,S/O,2023/24/1,L2,Labor/ -/ -,,,32/0/36,K:13:15-16:00(R4D),,Dr. Csorba Kristóf,,,,,,,,1097065127
+BMEVIAUBB01,Eseményvezérelt és vizuális programozás,Évközi jegy,7,S/O,2023/24/1,L6,Labor/ -/ -,,,0/0/0,K:13:15-16:00,,Dr. Csorba Kristóf,,,,,,,,1097065177
+BMEVIAUBB01,Eseményvezérelt és vizuális programozás,Évközi jegy,7,S/O,2023/24/1,L5,Labor/ -/ -,,,36/0/36,K:10:15-13:00(R4D),,Dr. Csorba Kristóf,,,,,,,,1097065173
+BMEVIAUBB01,Eseményvezérelt és vizuális programozás,Évközi jegy,7,S/O,2023/24/1,L4,Labor/ -/ -,,,0/0/0,K:13:15-16:00,,Dr. Csorba Kristóf,,,,,,,,1097065169
+BMEVIAUBB01,Eseményvezérelt és vizuális programozás,Évközi jegy,7,S/O,2023/24/1,L3,Labor/ -/ -,,,0/0/0,K:10:15-13:00,,Dr. Csorba Kristóf,,,,,,,,1097065165
+BMEVIAUBB01,Eseményvezérelt és vizuális programozás,Évközi jegy,7,S/O,2023/24/1,EA,Elmélet/ -/ -,,,68/0/120,CS:14:15-16:00(QBF09),,"Dr. Csorba Kristóf,   Hideg Attila",,,,,,,,1097065086
+BMEVIAUAB01,Informatika 2,Vizsga,5,S/O,2023/24/1,@,Vizsgakurzus/ -/ -,,,5/0/20,,,Dr. Csorba Kristóf,,,,,,,,1106571246
+BMEVIAUAB01,Informatika 2,Vizsga,5,S/O,2023/24/1,@A,Vizsgakurzus/ -/ -,,,2/0/20,,,"Dr. Csorba Kristóf,   Dr. Dunaev Dmitriy",,,,,,,,1106571136
+BMEVIAUDK03,Kutatás 3.,Évközi jegy,10,O,2023/24/1,AGY,Gyakorlat/ -/ -,,,1/0/5,,,"Dr. Blázovics László,   Dr. Csorba Kristóf",,,,,,,,1105770786
+BMEVIAUDK05,Kutatás 5.,Évközi jegy,15,O,2023/24/1,GY,Gyakorlat/ -/ -,,,1/0/10,,,Dr. Csorba Kristóf,,,,,,,,1105887212
+BMEVIAUBL00,Önálló laboratórium,Évközi jegy,16,O,2023/24/1,L,Labor/ -/ -,,,9/0/100,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105764949
+BMEVIAUAL03,Önálló laboratórium,Évközi jegy,5,O,2023/24/1,L,Labor/ -/ -,,,0/0/150,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1114375682
+BMEVIAUAL01,Önálló laboratórium,Évközi jegy,5,O,2023/24/1,L,Labor/ -/ -,,,6/0/200,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105764848
+BMEVIAUAL03,Önálló laboratórium,Évközi jegy,5,O,2023/24/1,AL,Labor/ -/ -,,,0/0/15,,,"Dr. Csorba Kristóf,   Dr. Dunaev Dmitriy,   Dr. Kovács Tibor,...",,,,,,,,1114375638
+BMEVIAUAL01,Önálló laboratórium,Évközi jegy,5,O,2023/24/1,AL,Labor/ -/ -,,,0/0/40,,,"Dr. Csorba Kristóf,   Dr. Kovács Tibor,   Dr. Kővári Bence András",,,,,,,,1105764840
+BMEVIAUML12,Önálló laboratórium 1,Évközi jegy,5,O,2023/24/1,L,Labor/ -/ -,,,2/0/100,,,Dr. Csorba Kristóf,,,,,,,,1108194031
+BMEVIAUML12,Önálló laboratórium 1,Évközi jegy,5,O,2023/24/1,AL,Labor/ -/ -,,,0/0/30,,,"Dr. Csorba Kristóf,   Dr. Kovács Tibor",,,,,,,,1108208745
+BMEVIAUML10,Önálló laboratórium 1,Évközi jegy,5,O,2023/24/1,AL,Labor/ -/ -,,,6/0/30,,,"Dr. Csorba Kristóf,   Dr. Kovács Tibor",,,,,,,,1108208595
+BMEVIAUML02,Önálló laboratórium 1,Évközi jegy,5,O,2023/24/1,AL,Labor/ -/ -,,,0/0/25,,,"Dr. Csorba Kristóf,   Dr. Tevesz Gábor,   Szabó Zoltán,...",,,,,,,,1105765079
+BMEVIAUML02,Önálló laboratórium 1,Évközi jegy,5,O,2023/24/1,L,Labor/ -/ -,,,0/0/150,,,"Dr. Csorba Kristóf,   Dr. Tevesz Gábor,   Szabó Zoltán,...",,,,,,,,1105765086
+BMEVIAUML00,Önálló laboratórium 1,Évközi jegy,5,O,2023/24/1,AL,Labor/ -/ -,,,3/0/50,,,"Dr. Csorba Kristóf,   Dr. Kovács Tibor,   Dr. Kővári Bence András",,,,,,,,1105765026
+BMEVIAUML00,Önálló laboratórium 1,Évközi jegy,5,O,2023/24/1,L,Labor/ -/ -,,,2/0/150,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105765041
+BMEVIAUML10,Önálló laboratórium 1,Évközi jegy,5,O,2023/24/1,L,Labor/ -/ -,,,21/0/100,,,Dr. Csorba Kristóf,,,,,,,,1108193957
+BMEVIAUML13,Önálló laboratórium 2,Évközi jegy,5,O,2023/24/1,L,Labor/ -/ -,,,49/0/100,,,Dr. Csorba Kristóf,,,,,,,,1108208535
+BMEVIAUML03,Önálló laboratórium 2,Évközi jegy,5,O,2023/24/1,AL,Labor/ -/ -,,,0/0/40,,,"Dr. Csorba Kristóf,   Szabó Zoltán,   Dr. Kovács Tibor,...",,,,,,,,1105765231
+BMEVIAUML13,Önálló laboratórium 2,Évközi jegy,5,O,2023/24/1,AL,Labor/ -/ -,,,0/0/100,,,Dr. Csorba Kristóf,,,,,,,,1114395025
+BMEVIAUML03,Önálló laboratórium 2,Évközi jegy,5,O,2023/24/1,L,Labor/ -/ -,,,0/0/150,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105765250
+BMEVIAUML01,Önálló laboratórium 2,Évközi jegy,5,O,2023/24/1,AL,Labor/ -/ -,,,0/0/50,,,"Dr. Charaf Hassan,   Dr. Csorba Kristóf,   Dr. Kovács Tibor,...",,,,,,,,1105765176
+BMEVIAUML11,Önálló laboratórium 2,Évközi jegy,5,O,2023/24/1,L,Labor/ -/ -,,,68/0/100,,,Dr. Csorba Kristóf,,,,,,,,1108193981
+BMEVIAUML01,Önálló laboratórium 2,Évközi jegy,5,O,2023/24/1,L,Labor/ -/ -,,,4/0/150,,,"Dr. Charaf Hassan,   Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105765182
+BMEVIAUML11,Önálló laboratórium 2,Évközi jegy,5,O,2023/24/1,AL,Labor/ -/ -,,,0/0/100,,,Dr. Csorba Kristóf,,,,,,,,1114394843
+BMEVIAUM039,Projektfeladat mechatronikusoknak,Évközi jegy,6,O,2023/24/1,L,Labor/ -/ -,,,5/0/30,,,"Dr. Sütő Zoltán,   Dr. Csorba Kristóf,   Dr. Tevesz Gábor,...",,,,,,,,1105767167
+BMEVIAUBL01,Projektgyakorlat,Évközi jegy,7,O,2023/24/1,GY,Gyakorlat/ -/ -,,,0/0/100,,,Dr. Csorba Kristóf,,,,,,,,1105767244
+BMEVIAUAT00,Szakdolgozat-készítés,Évközi jegy,15,O,2023/24/1,GY,Gyakorlat/ -/ -,,,127/0/200,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105766973
+BMEVIAUAT00,Szakdolgozat-készítés,Évközi jegy,15,O,2023/24/1,AGY,Gyakorlat/ -/ -,,,31/0/50,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András,   Dr. Kovács Tibor",,,,,,,,1105766963
+BMEVIAUBT00,Szakdolgozat-készítés,Évközi jegy,15,O,2023/24/1,GY,Gyakorlat/ -/ -,,,0/0/100,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105767080
+BMEVIAUAT01,Szakdolgozat-készítés,Évközi jegy,15,O,2023/24/1,AGY,Gyakorlat/ -/ -,,,3/0/25,,,"Dr. Kovács Tibor,   Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105767034
+BMEVIAUA019,Szakdolgozat-készítés,Évközi jegy,15,O,2023/24/1,A1Gy23os,Gyakorlat/ Speciális kurzus/ Speciális kurzus,,,0/0/999,,,"Dr. Sütő Zoltán,   Dr. Csorba Kristóf,   Dr. Kővári Bence András,...",,,,,,,,1094177473
+BMEVIAUA019,Szakdolgozat-készítés,Évközi jegy,15,O,2023/24/1,1Gy23os,Gyakorlat/ -/ -,,,7/0/999,,,"Dr. Sütő Zoltán,   Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105766859
+BMEVIAUAT01,Szakdolgozat-készítés,Évközi jegy,15,O,2023/24/1,Gy,Gyakorlat/ -/ -,,,23/0/150,,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1105767023
+BMEVIAUAL00,Témalaboratórium,Évközi jegy,3,O,2023/24/1,L,Labor/ -/ -,,,112/0/140,CS:14:15-18:00,,"Dr. Csorba Kristóf,   Dr. Kővári Bence András",,,,,,,,1097081906
+BMEVIAUAL00,Témalaboratórium,Évközi jegy,3,O,2023/24/1,AL,Labor/ -/ -,,,28/0/40,P:08:15-12:00,,"Dr. Sipos Márton Ákos,   Dr. Csorba Kristóf,   Dr. Kovács Tibor,...",,,,,,,,1097081883
+BMEVIAUAL02,Témalaboratórium,Évközi jegy,3,O,2023/24/1,AL,Labor/ -/ -,,,12/0/40,P:10:15-14:00,,"Szabó Zoltán,   Dr. Csorba Kristóf,   Dr. Kovács Tibor,...",,,,,,,,1097081842
+BMEVIAUAL02,Témalaboratórium,Évközi jegy,3,O,2023/24/1,L,Labor/ -/ -,,,29/0/48,SZE:08:15-12:00,,"Dr. Tevesz Gábor,   Szabó Zoltán,   Dr. Csorba Kristóf,...",,,,,,,,1097081808
