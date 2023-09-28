@@ -1,0 +1,16 @@
+**/bin/*
+**/obj/*
+**/packages/*
+**/.vs/*
+*.user
+*.suo
+*.cache
+<<<<<<< HEAD
+*/.vs/*
+**/.vs/*
+**/obj/*
+**/bin/*
+=======
+/ElsoSolution/ElsoKonzolosApp/obj/Debug/net7.0/ElsoKonzolosApp.assets.cache
+/ElsoSolution/ElsoKonzolosApp/obj/Debug/net7.0/ElsoKonzolosApp.GeneratedMSBuildEditorConfig.editorconfig
+>>>>>>> 5e65ef3 (Updated gitignore)
