@@ -1,10 +1,11 @@
 ﻿using System.Text.Json;
+using System.Xml.Serialization;
 
 namespace Serialization
 {
-    internal class Program
+    public class Program
     {
-        class Person
+        public class Person
         {
             public string Name { get; set; }
             public int Age { get; set; }
@@ -19,6 +20,22 @@ namespace Serialization
 
         static void Main(string[] args)
         {
+            string jsonString = JsonSerializer.Serialize(persons);
+            File.WriteAllText("persons.json", jsonString);
+
+            XmlSerializer xs = new XmlSerializer(typeof(Person[]));
+            using (StreamWriter wr = new StreamWriter("persons.xml"))
+            {
+                xs.Serialize(wr, persons);
+            }
+
+            string newJsonString = File.ReadAllText("persons.json");
+            Person[] newPersons = JsonSerializer.Deserialize<Person[]>(newJsonString);
+
+            using (StreamReader rd = new StreamReader("persons.xml"))
+            {
+                Person[] newPersonsFromXml = (Person[])xs.Deserialize(rd);
+            }
         }
     }
 }
