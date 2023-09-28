@@ -7,5 +7,7 @@
 *.cache
 */.vs/*
 **/.vs/*
+/ElsoSolution/ElsoKonzolosApp/obj/Debug/net7.0/ElsoKonzolosApp.assets.cache
+/ElsoSolution/ElsoKonzolosApp/obj/Debug/net7.0/ElsoKonzolosApp.GeneratedMSBuildEditorConfig.editorconfig
 **/obj/*
 **/bin/*
