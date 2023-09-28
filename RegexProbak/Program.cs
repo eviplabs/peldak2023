@@ -8,23 +8,16 @@ namespace RegexProbak
         static void Main(string[] args)
         {
             string filePath = @"Szoveg.txt";
-            using (StreamReader reader = new StreamReader(filePath))
-            {
-                int sum = 0;
-                while (!reader.EndOfStream)
-                {
-                    var line = reader.ReadLine();
-                    var pattern = @"^(?:[^,]*,){10}(\d+)/(\d+)/(\d+),";
-                    var regex = new Regex(pattern);
-                    var match = regex.Match(line);
-                    if (match.Success)
-                    {
-                        var studentCount = int.Parse(match.Groups[1].Value);
-                        sum += studentCount;
-                    }
-                }
-                Console.WriteLine(sum);
+            string[] lines = File.ReadAllLines(filePath);
+            int sum = 0;
+            var pattern = @"^(?:[^,]*,){10}(\d+)/(\d+)/(\d+),";
+            var regex = new Regex(pattern);
+            foreach (var line in lines)
+            { 
+                var match = regex.Match(line);
+                sum += match.Success ? int.Parse(match.Groups[1].Value) : 0;
             }
+            Console.WriteLine(sum);
         }
     }
 }
