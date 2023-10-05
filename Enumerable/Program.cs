@@ -5,20 +5,24 @@
         static void Main(string[] args)
         {
             var numbers = GetNumbers(10);
-            foreach(var number in numbers)
+            var enumerator = numbers.GetEnumerator();
+            //foreach(var number in numbers)
+            //{
+            //    System.Console.WriteLine(number);
+            //}
+            while(enumerator.MoveNext())
             {
-                System.Console.WriteLine(number);
+                var number = enumerator.Current;
+                Console.WriteLine(number);
             }
         }
 
-        static public int[] GetNumbers(int count)
+        static public IEnumerable<int> GetNumbers(int count)
         {
-            int[] numbers = new int[count];
             for(int i = 0; i < count; i++)
             {
-                numbers[i] = i;
+                yield return i;
             }
-            return numbers;
         }
     }
 }
