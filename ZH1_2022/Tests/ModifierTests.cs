@@ -12,7 +12,7 @@ namespace Tests
         [Fact]
         public void TestGrowPerson()
         {
-            var p = new Person("John", 77, 170);
+            var p = new Person("John:", 77, 170);
             var grower = new PersonGrower();
             grower.N = 5;
             grower.Modify(p);
