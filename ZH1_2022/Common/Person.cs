@@ -23,5 +23,10 @@ namespace Common
         {
             return new Person("Minta Mókus", 25, 180);
         }
+
+        public string GetDescription()
+        {
+            return $"{Name} ({Height} cm magas), kora {Age}.";
+        }
     }
 }

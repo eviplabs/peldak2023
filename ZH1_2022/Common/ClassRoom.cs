@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 
 namespace Common
 {
@@ -18,6 +19,16 @@ namespace Common
         public int Count()
         {
             return persons.Count;
+        }
+
+        public double AverageAge()
+        {
+            return persons.Average(p => p.Age);
+        }
+
+        public Person GetTallestPerson()
+        {
+            return persons.OrderByDescending(p => p.Height).First();
         }
     }
 }
