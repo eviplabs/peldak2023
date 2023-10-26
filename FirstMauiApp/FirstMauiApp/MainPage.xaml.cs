@@ -40,6 +40,14 @@
         {
             Button senderButton = (Button)sender;
             senderButton.BackgroundColor = Colors.Aqua;
+
+            var N = ColorButtons.Children.Count;
+            for(int i = 0; i < N; i++)
+            {
+                var currentbutton = (Button)ColorButtons.Children[i];
+                if (currentbutton == senderButton)
+                    DisplayAlert("Button clicked", $"The {i}-th hello button was clicked", "OK");
+            }
         }
     }
 }
