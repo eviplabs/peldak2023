@@ -1,11 +1,37 @@
 ﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
 
 namespace MauiBindingDemo
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : ContentPage, INotifyPropertyChanged
     {
-        public string CarModel { get; set; }
-        public int CarAge { get; set; }
+        private string _carModel;
+        public string CarModel
+        {
+            get { return _carModel; }
+            set
+            {
+                if (_carModel != value)
+                {
+                    _carModel = value;
+                    OnPropertyChanged(nameof(CarModel));
+                }
+            }
+        }
+
+        private int _carAge;
+        public int CarAge
+        {
+            get { return _carAge; }
+            set
+            {
+                if (_carAge != value)
+                {
+                    _carAge = value;
+                    OnPropertyChanged(nameof(CarAge));
+                }
+            }
+        }
 
         public List<Car> CarList { get; set; } = new List<Car>();
 
@@ -25,6 +51,12 @@ namespace MauiBindingDemo
         {
             CarModel = "Ford Focus";
             CarAge = 1;
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

@@ -11,7 +11,7 @@
         <Frame>
             <VerticalStackLayout>
                 <Label Text="Model:" />
-                <Entry Text="Ford Focus" />
+                <Entry Text="{x:Binding CarModel}" />
 
                 <Label Text="Age:" />
                 <HorizontalStackLayout>
