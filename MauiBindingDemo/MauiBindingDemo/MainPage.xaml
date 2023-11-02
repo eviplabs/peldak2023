@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiBindingDemo"
+             x:Class="MauiBindingDemo.MainPage">
+    <ContentPage.Resources>
+        <local:AgeToColorConverter x:Key="converter" />
+    </ContentPage.Resources>
+    
+    <HorizontalStackLayout>
+        <Frame>
+            <VerticalStackLayout>
+                <Label Text="Model:" />
+                <Entry Text="Ford Focus" />
+
+                <Label Text="Age:" />
+                <HorizontalStackLayout>
+                    <Label 
+                        Text="3" WidthRequest="20"
+                        HeightRequest="50" Margin="0,5,0,0"/>
+                    
+                    <Slider
+                        x:Name="CarAgeSlider"
+                        Minimum="0"
+                        Maximum="30"
+                        Value="3" 
+                        WidthRequest="100" />
+                </HorizontalStackLayout>
+
+                <Button
+                    x:Name="CounterBtn"
+                    Text="Add car to list"
+                    Clicked="OnAddItemClicked" />
+
+                <Button
+                    Text="Reset entry fields"
+                    Clicked="ResetEntriesButtonClicked" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <Frame>
+            <VerticalStackLayout>
+                <Label Text="Available cars:" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <Frame>
+            <VerticalStackLayout>
+                <Label Text="Model name:" />
+                <Entry
+                    Text="Ford Focus"
+                    WidthRequest="200" HeightRequest="50"
+                    HorizontalOptions="Start"/>
+
+                <Label Text="Age:" />
+                <HorizontalStackLayout>
+                    <Slider
+                        Minimum="0" Maximum="30"
+                        Value="3"
+                        BackgroundColor="Aquamarine"
+                        WidthRequest="200" HeightRequest="50" VerticalOptions="Center" />
+
+                    <Label
+                        Text="3"
+                        WidthRequest="200" HeightRequest="50" VerticalOptions="Center"
+                        Margin="10,9,0,0"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Frame>
+    </HorizontalStackLayout>
+</ContentPage>
