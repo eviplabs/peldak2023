@@ -7,10 +7,40 @@ using System.Threading.Tasks;
 
 namespace MauiBindingDemo
 {
-    public class Car
+    public class Car : INotifyPropertyChanged
     {
-        public string Model { get; set; }
+        private string _model;
+        public string Model
+        {
+            get { return _model; }
+            set
+            {
+                if (_model != value)
+                {
+                    _model = value;
+                    OnPropertyChanged(nameof(Model));
+                }
+            }
+        }
 
-        public int Age { get; set; }
+        private int _age;
+        public int Age
+        {
+            get { return _age; }
+            set
+            {
+                if (_age != value)
+                {
+                    _age = value;
+                    OnPropertyChanged(nameof(Age));
+                }
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }

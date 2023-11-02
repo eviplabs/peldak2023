@@ -33,7 +33,7 @@ namespace MauiBindingDemo
             }
         }
 
-        public List<Car> CarList { get; set; } = new List<Car>();
+        public ObservableCollection<Car> CarList { get; set; } = new ObservableCollection<Car>();
 
         public MainPage()
         {
@@ -51,12 +51,6 @@ namespace MauiBindingDemo
         {
             CarModel = "Ford Focus";
             CarAge = 1;
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

@@ -16,14 +16,14 @@
                 <Label Text="Age:" />
                 <HorizontalStackLayout>
                     <Label 
-                        Text="3" WidthRequest="20"
+                        Text="{x:Binding CarAge}" WidthRequest="20"
                         HeightRequest="50" Margin="0,5,0,0"/>
                     
                     <Slider
                         x:Name="CarAgeSlider"
                         Minimum="0"
                         Maximum="30"
-                        Value="3" 
+                        Value="{x:Binding CarAge}" 
                         WidthRequest="100" />
                 </HorizontalStackLayout>
 
@@ -41,6 +41,18 @@
         <Frame>
             <VerticalStackLayout>
                 <Label Text="Available cars:" />
+                <CollectionView x:Name="CarListView" ItemsSource="{x:Binding CarList}" SelectionMode="Single" WidthRequest="200">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="local:Car">
+                            <HorizontalStackLayout Spacing="10">
+                                <BoxView
+                                    Color="{x:Binding Age, Converter={StaticResource converter}}"
+                                    WidthRequest="20" HeightRequest="20" />
+                                <Label Text="{x:Binding Model}"/>
+                            </HorizontalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
             </VerticalStackLayout>
         </Frame>
 
@@ -48,7 +60,8 @@
             <VerticalStackLayout>
                 <Label Text="Model name:" />
                 <Entry
-                    Text="Ford Focus"
+                    BindingContext="{x:Reference CarListView}"
+                    Text="{x:Binding SelectedItem.Model}"
                     WidthRequest="200" HeightRequest="50"
                     HorizontalOptions="Start"/>
 
@@ -56,12 +69,15 @@
                 <HorizontalStackLayout>
                     <Slider
                         Minimum="0" Maximum="30"
-                        Value="3"
-                        BackgroundColor="Aquamarine"
-                        WidthRequest="200" HeightRequest="50" VerticalOptions="Center" />
+                        BindingContext="{x:Reference CarListView}"
+                        Value="{x:Binding SelectedItem.Age}"
+                        BackgroundColor="{x:Binding SelectedItem.Age, Converter={x:StaticResource converter}}"
+                        WidthRequest="200" HeightRequest="50" VerticalOptions="Center" 
+                        ThumbColor="{x:Binding SelectedItem.Age, Converter={x:StaticResource converter}}"/>
 
                     <Label
-                        Text="3"
+                        BindingContext="{x:Reference CarListView}"
+                        Text="{x:Binding SelectedItem.Age}"
                         WidthRequest="200" HeightRequest="50" VerticalOptions="Center"
                         Margin="10,9,0,0"/>
                 </HorizontalStackLayout>
