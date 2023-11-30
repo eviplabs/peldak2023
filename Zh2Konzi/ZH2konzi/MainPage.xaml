@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ZH2konzi"
+             x:Class="ZH2konzi.MainPage">
+    <ContentPage.Resources>
+        <local:Degree2ColorConverter x:Key="converter"/>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            
+            <CollectionView x:Name="RotationList" ItemsSource="{x:Binding Rotations}" SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="local:Rotation">
+                        <BoxView WidthRequest="30" HeightRequest="10"
+                                 Rotation="{x:Binding Degree}"
+                                 Color="{x:Binding Degree,
+                                    Converter={StaticResource Key=converter}}"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Slider Minimum="0" Maximum="90" BindingContext="{x:Reference RotationList}"
+                    Value="{x:Binding SelectedItem.Degree}" />
+            <Button Text="Rotate all +10 degrees" Clicked="Button_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
