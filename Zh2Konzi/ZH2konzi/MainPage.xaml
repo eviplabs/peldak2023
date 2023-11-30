@@ -7,26 +7,35 @@
         <local:Degree2ColorConverter x:Key="converter"/>
     </ContentPage.Resources>
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
-            
-            <CollectionView x:Name="RotationList" ItemsSource="{x:Binding Rotations}" SelectionMode="Single">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate x:DataType="local:Rotation">
-                        <BoxView WidthRequest="30" HeightRequest="10"
-                                 Rotation="{x:Binding Degree}"
-                                 Color="{x:Binding Degree,
-                                    Converter={StaticResource Key=converter}}"/>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-            <Slider Minimum="0" Maximum="90" BindingContext="{x:Reference RotationList}"
-                    Value="{x:Binding SelectedItem.Degree}" />
-            <Button Text="Rotate all +10 degrees" Clicked="Button_Clicked"/>
-        </VerticalStackLayout>
-    </ScrollView>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+        
+        <CollectionView x:Name="RotationList" ItemsSource="{x:Binding Rotations}" SelectionMode="Single" Grid.Row="0" Grid.Column="0"
+                        SelectedItem="{x:Binding CurrentlySelectedRotation,     Mode=OneWayToSource}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="local:Rotation">
+                    <BoxView WidthRequest="30" HeightRequest="10"
+                                Rotation="{x:Binding Degree}"
+                                Color="{x:Binding Degree,
+                                Converter={StaticResource Key=converter}}"/>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Slider Minimum="0" Maximum="90" BindingContext="{x:Reference RotationList}"
+                Value="{x:Binding SelectedItem.Degree}"
+                 Grid.Row="1" Grid.Column="0"/>
+        <Button Text="Rotate all +10 degrees" Clicked="Button_Clicked"
+                 Grid.Row="2" Grid.Column="0"/>
+        <Entry x:Name="ValueEntry" Text="{x:Binding CurrentDegreeRequest}" Grid.Row="1" Grid.Column="1"/>
+        <Button Text="Set rotation..." Clicked="Button_Clicked_1"  Grid.Row="2" Grid.Column="1"/>
 
+    </Grid>
 </ContentPage>

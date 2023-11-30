@@ -25,5 +25,14 @@ namespace ZH2konzi
                 r.Degree += 10;
             }
         }
+
+        public string CurrentDegreeRequest { get; set; }
+        public Rotation CurrentlySelectedRotation { get; set; }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            int deg = int.Parse(CurrentDegreeRequest);
+            CurrentlySelectedRotation.Degree = deg;
+        }
     }
 }
